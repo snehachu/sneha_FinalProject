@@ -7,8 +7,14 @@ color: #333;
 
 }
 
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 img {
-    width: 100%;
+    width: 80%;
     height: auto;
     display: block;
   }
@@ -84,7 +90,7 @@ h2{
 }
 
 
-#navigation {
+    #navigation {
     background-color: rgb(243, 149, 149);
     overflow: hidden;
     padding: 10px;
@@ -113,11 +119,11 @@ h2{
     }
 
 
-#customize-button {
-    background-color: #4caf50;
+    #customize-button {
+    background-color: #f4078d;
     color: #fff;
     padding: 15px 30px;
-    font-size: 16px;
+    font-size: px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -125,7 +131,7 @@ h2{
 }
 
 #customize-button:hover {
-    background-color: #45a049;
+    background-color: #ec1d73;
 }
 
 #custom-modal {
@@ -169,8 +175,8 @@ h2{
 }
 
 @media screen and (max-width: 600px) {
-    #navigation {
-        float: none;
+    nav {
+        display:float;
     }
 }
 
