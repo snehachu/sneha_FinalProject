@@ -90,7 +90,7 @@ h2{
 }
 
 
-    #navigation {
+    #navigation { 
     background-color: rgb(243, 149, 149);
     overflow: hidden;
     padding: 10px;
@@ -181,7 +181,7 @@ h2{
 }
 
 footer{
-    background-color: lightcoral;
+    background-color: rgb(243, 151, 151);
     padding:20px
     
 }
