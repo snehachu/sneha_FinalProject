@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake My Day </title>
+   
+       <script src="proj.js"></script>
+       <link rel="stylesheet" href="proj.css">
+</head>
+<body>
+
+    <div id="top-bar">
+        <p>Boxing Day Offer: 25% Off! Applied automatically at Checkout</p>
+    </div>
+
+    <div id="navigation">
+      
+            <a href="projectTest.html">Home</a>
+            <a href="AboutUs.html">About Me</a>
+            <a href="Contact.html">Contact</a>
+            <a href="cart.html" id="cart">cart</a>
+    </div>
+    
+        
+    
+
+<div class="container">
+    <img src="https://i.pinimg.com/originals/e4/02/96/e40296b8e5ee45cd1914a977ba947428.png" alt="logo">
+</div>
+
+
+
+
+
+<div id="image-gallery">
+    
+<h2>Our Most Popular Flavours</h2>
+
+<div class="gallery">
+    <div class="cake">
+        <img src="https://ruwiscakes.com.au/wp-content/uploads/1-1.png" alt="Chocolate Cake">
+        <div class="cake-title">Chocolate Cake</div>
+    </div>
+
+    <div class="cake">
+        <img src="https://ruwiscakes.com.au/wp-content/uploads/9-2.png" alt="Strawberry Cake">
+        <div class="cake-title">Strawberry Cake</div>
+    </div>
+
+    <div class="cake">
+        <img src="https://ruwiscakes.com.au/wp-content/uploads/10-2.png" alt="Pineapple Cake">
+        <div class="cake-title">Pineapple Cake</div>
+    </div>
+
+    <div class="cake">
+        <img src="https://ruwiscakes.com.au/wp-content/uploads/8-1.png" alt="Vanilla Cake">
+        <div class="cake-title">Vanilla Cake</div>
+    </div>
+
+    <div class="cake">
+        <img src="https://ruwiscakes.com.au/wp-content/uploads/3-1.png" alt="Matcha Cake">
+        <div class="cake-title">Matcha Cake</div>
+    </div>
+</div>
+</div>
+
+<section><button id="customize-button" onclick="openCustomModal()">Customize Now</button></section>
+
+
+<div id="custom-modal">
+    <div class="modal-content">
+        <button class="close-button" onclick="closeCustomModal()">Close</button>
+        <form id="cake-order-form">
+            <label for="cake-type">Select Cake Type:</label>
+            <select id="cake-type" name="cake-type">
+                <option value="chocolate">Chocolate Cake</option>
+                <option value="vanilla">Vanilla Cake </option>
+                <option value="strawberry">Strawberry Fresh cream Cake</option>
+                <option value="Blueberry">Blueberry Fresh Cream Cake</option>
+                <option value="Pineapple">Pineapple Fresh Cream Cake</option>
+            </select>
+    
+            <label for="size">Select Size:</label>
+            <select id="size" name="size">
+                <option value="x-small">6" Round upto 14 servings</option>
+                <option value="small">7" Round upto 25 servings</option>
+                <option value="medium">8"Round upto 30 servings</option>
+                <option value="large">Two Tier upto 45 servings</option>
+            </select>
+    
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" value="1">
+    
+            <button type="button" onclick="submitOrder('cake-type','size','quantity')">Place Order</button>
+            
+          
+        </form>
+    </div>
+</div>
+
+
+<section id="instagram-link"><a  href="https://www.instagram.com/cakemyday_melbourne/" target="_blank">
+    instagram-link</a></section>
+
+
+</body>
+</html>
