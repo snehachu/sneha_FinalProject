@@ -1,13 +1,13 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f9e8d0;
+    background-color: #f9d0e6;
     margin: 0;
     padding: 0;
 }
 
 h1 {
-    background-color: #ffd699;
+    background-color: #ff99da;
     padding: 20px;
     text-align: center;
 }
@@ -42,7 +42,7 @@ main {
 
 h1 {
     justify-content: center;
-    color: #cc6600;
+    color: #d4046c;
 }
 
 p {

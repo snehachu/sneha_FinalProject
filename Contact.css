@@ -1,12 +1,12 @@
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f9e8d0;
+    background-color: #f9d0e2;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #ffd699;
+    background-color: #ff99c7;
     padding: 20px;
     text-align: center;
 }
@@ -39,7 +39,7 @@ main {
 }
 
 h1 {
-    color: #cc6600;
+    color: #e41684;
 }
 
 p {
@@ -60,7 +60,7 @@ form {
 label {
     display: block;
     margin-bottom: 8px;
-    color: #cc6600;
+    color: #f00971;
 }
 
 input,
@@ -74,7 +74,7 @@ textarea {
 }
 
 button {
-    background-color: #4caf50;
+    background-color: #eb1471;
     color: #fff;
     padding: 10px 20px;
     font-size: 16px;
@@ -85,13 +85,11 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #d80785;
 }
 
 
 footer {
     text-align: center;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #ffd699;
+    background-color:rgb(243, 151, 198);
 }

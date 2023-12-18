@@ -58,6 +58,7 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #3f3d3e;
     
 }
 
@@ -91,7 +92,7 @@ h2{
 
 
     #navigation { 
-    background-color: rgb(243, 149, 149);
+    background-color: rgb(243, 149, 191);
     overflow: hidden;
     padding: 10px;
     text-align: center;
@@ -105,7 +106,7 @@ h2{
     
     nav a {
     display: inline-block;
-    color: #333;
+    color: #343333;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -179,9 +180,51 @@ h2{
         display:float;
     }
 }
+.section{
+    display: flex;
+    justify-content: space-around;
+}
+
+#gridContainer {
+    display: grid;
+    grid-template-columns: 3; 
+    gap: 5px; 
+    
+  }
+
+#reviews{
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.reviewBox{
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 8px, 0.1);
+    
+}
+
+.reviewTitle{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.reviewContent{
+font-size: 14px;
+line-height: 1.5;
+font-family: sans-serif;
+}
 
 footer{
-    background-color: rgb(243, 151, 151);
+    background-color: rgb(243, 151, 198);
     padding:20px
     
 }

@@ -68,10 +68,10 @@
 
 <div id="custom-modal">
     <div class="modal-content">
-        <button class="close-button" onclick="closeCustomModal()">Close</button>
+        
         <form id="cake-order-form">
-            <label for="cake-type">Select Cake Type:</label>
-            <select id="cake-type" name="cake-type">
+            <label for="cakeType">Select Cake Type:</label>
+            <select id="cakeType" name="cakeType">
                 <option value="chocolate">Chocolate Cake</option>
                 <option value="vanilla">Vanilla Cake </option>
                 <option value="strawberry">Strawberry Fresh cream Cake</option>
@@ -79,8 +79,8 @@
                 <option value="Pineapple">Pineapple Fresh Cream Cake</option>
             </select>
     
-            <label for="size">Select Size:</label>
-            <select id="size" name="size">
+            <label for="cakeSize">Select Size:</label>
+            <select id="cakeSize" name="cakeSize">
                 <option value="x-small">6" Round upto 14 servings</option>
                 <option value="small">7" Round upto 25 servings</option>
                 <option value="medium">8"Round upto 30 servings</option>
@@ -90,13 +90,29 @@
             <label for="quantity">Quantity:</label>
             <input type="number" id="quantity" name="quantity" min="1" value="1">
     
-            <button type="button" onclick="submitCustomOrder('cake-type','size','quantity')">Place Order</button>
+            <button type="button" onclick="addToCart()">Place Order</button>
+            <button class="close-button" onclick="closeCustomModal()">Close</button>
             
           
         </form>
     </div>
 </div>
+<h2>Love From our Customers </h2>
+<section id="gridContainer">
 
+<div id="reviews">
+    <div class="reviewBox">
+        <div class="reviewTitle">Delicious Cakes! ★★★★★</div>
+        <div class="reviewContent">I ordered a cake for my Son's Birthday and it was an absolute Hit! Flavours were outstanding, and the details on the cake were just perfect.Highly Recommend!</div>
+    </div>
+</div>
+<div id="reviews">
+    <div class="reviewBox">
+        <div class="reviewTitle">My go to Baker  ★★★★★</div>
+        <div class="reviewContent">I ordered a custom cake for my son's graduation, and it was a hit! The baker brilliantly incorporated elements from my son's interests, and the result was a cake that not only looked amazing but also tasted fantastic. The entire process from ordering to delivery was smooth, and I appreciate the dedication to making it a personalized experience. Will definitely be ordering again!</div>
+</div>
+
+</section>
 
 
 <footer>
