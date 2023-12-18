@@ -11,12 +11,14 @@ color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0.8;
 }
 
 img {
     width: 80%;
     height: auto;
     display: block;
+    
   }
 
 section{
@@ -58,7 +60,8 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #3f3d3e;
+    color: #504e4f;
+    font-family:cursive;
     
 }
 
@@ -70,6 +73,7 @@ h2{
     margin-top: 20px;    
     justify-content: center;
     align-items: center;
+    
 
 }
 
@@ -119,16 +123,24 @@ h2{
     color: #fff;
     }
 
+    #Customize{
+        display:flex;
+        justify-content: center;
+    }
 
     #customize-button {
     background-color: #f4078d;
     color: #fff;
     padding: 15px 30px;
-    font-size: px;
+    font-size: 20px;
+    font-weight: bold;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    width:300px;
+    height:75px;
+   
 }
 
 #customize-button:hover {
